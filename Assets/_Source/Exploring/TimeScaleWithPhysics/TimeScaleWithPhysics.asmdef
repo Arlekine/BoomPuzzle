@@ -1,0 +1,16 @@
+{
+    "name": "TimeScaleWithPhysics",
+    "rootNamespace": "",
+    "references": [
+        "GUID:6dc255e286f5f3946aa1b67e105fdb58"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
