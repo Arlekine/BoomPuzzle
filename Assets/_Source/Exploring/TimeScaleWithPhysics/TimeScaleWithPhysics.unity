@@ -131,6 +131,7 @@ GameObject:
   - component: {fileID: 245327647}
   - component: {fileID: 245327646}
   - component: {fileID: 245327645}
+  - component: {fileID: 245327648}
   m_Layer: 0
   m_Name: Dynamic Sprite (14)
   m_TagString: Untagged
@@ -301,6 +302,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &245327648
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 245327643}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2872f7bb27a99db4daa6a0e23e3959c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _rigidbody: {fileID: 245327646}
 --- !u!1 &428318911
 GameObject:
   m_ObjectHideFlags: 0
@@ -313,6 +327,7 @@ GameObject:
   - component: {fileID: 428318915}
   - component: {fileID: 428318914}
   - component: {fileID: 428318916}
+  - component: {fileID: 428318917}
   m_Layer: 0
   m_Name: Dynamic Sprite
   m_TagString: Untagged
@@ -483,6 +498,19 @@ PolygonCollider2D:
       - {x: 0.46875, y: -0.359375}
       - {x: 0.4921875, y: -0.28515625}
   m_UseDelaunayMesh: 0
+--- !u!114 &428318917
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 428318911}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2872f7bb27a99db4daa6a0e23e3959c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _rigidbody: {fileID: 428318914}
 --- !u!1 &459824300
 GameObject:
   m_ObjectHideFlags: 0
@@ -495,6 +523,7 @@ GameObject:
   - component: {fileID: 459824304}
   - component: {fileID: 459824303}
   - component: {fileID: 459824302}
+  - component: {fileID: 459824305}
   m_Layer: 0
   m_Name: Dynamic Sprite (6)
   m_TagString: Untagged
@@ -665,6 +694,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &459824305
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 459824300}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2872f7bb27a99db4daa6a0e23e3959c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _rigidbody: {fileID: 459824303}
 --- !u!1 &466774925
 GameObject:
   m_ObjectHideFlags: 0
@@ -677,6 +719,7 @@ GameObject:
   - component: {fileID: 466774929}
   - component: {fileID: 466774928}
   - component: {fileID: 466774927}
+  - component: {fileID: 466774930}
   m_Layer: 0
   m_Name: Dynamic Sprite (1)
   m_TagString: Untagged
@@ -847,6 +890,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &466774930
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 466774925}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2872f7bb27a99db4daa6a0e23e3959c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _rigidbody: {fileID: 466774928}
 --- !u!1 &631386055
 GameObject:
   m_ObjectHideFlags: 0
@@ -859,6 +915,7 @@ GameObject:
   - component: {fileID: 631386059}
   - component: {fileID: 631386058}
   - component: {fileID: 631386057}
+  - component: {fileID: 631386060}
   m_Layer: 0
   m_Name: Dynamic Sprite (10)
   m_TagString: Untagged
@@ -1029,6 +1086,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &631386060
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 631386055}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2872f7bb27a99db4daa6a0e23e3959c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _rigidbody: {fileID: 631386058}
 --- !u!1 &839099490
 GameObject:
   m_ObjectHideFlags: 0
@@ -1041,6 +1111,7 @@ GameObject:
   - component: {fileID: 839099494}
   - component: {fileID: 839099493}
   - component: {fileID: 839099492}
+  - component: {fileID: 839099495}
   m_Layer: 0
   m_Name: Dynamic Sprite (5)
   m_TagString: Untagged
@@ -1211,6 +1282,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &839099495
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 839099490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2872f7bb27a99db4daa6a0e23e3959c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _rigidbody: {fileID: 839099493}
 --- !u!1 &903406326
 GameObject:
   m_ObjectHideFlags: 0
@@ -1236,7 +1320,7 @@ Transform:
   m_GameObject: {fileID: 903406326}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.044, y: -0.65, z: 0}
+  m_LocalPosition: {x: -0.037, y: -1.676, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1391,6 +1475,7 @@ GameObject:
   - component: {fileID: 1124678440}
   - component: {fileID: 1124678439}
   - component: {fileID: 1124678438}
+  - component: {fileID: 1124678441}
   m_Layer: 0
   m_Name: Dynamic Sprite (8)
   m_TagString: Untagged
@@ -1561,6 +1646,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1124678441
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1124678436}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2872f7bb27a99db4daa6a0e23e3959c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _rigidbody: {fileID: 1124678439}
 --- !u!1 &1167769947
 GameObject:
   m_ObjectHideFlags: 0
@@ -1617,7 +1715,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1254249048}
   - component: {fileID: 1254249049}
-  - component: {fileID: 1254249050}
+  - component: {fileID: 1254249051}
+  - component: {fileID: 1254249052}
   m_Layer: 0
   m_Name: LOGIC
   m_TagString: Untagged
@@ -1653,7 +1752,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _timeScale: 1
---- !u!114 &1254249050
+--- !u!114 &1254249051
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1662,12 +1761,26 @@ MonoBehaviour:
   m_GameObject: {fileID: 1254249047}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2d9a6ec8dd30cd34c962955d392f50d7, type: 3}
+  m_Script: {fileID: 11500000, guid: 5bcea422039669544acda7a96333d098, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _explosionPoint: {fileID: 903406327}
   _explosionRadius: 1
-  _explosionForce: 100
+  _explosionForce: 1250
+  _explosionTime: 0.2
+--- !u!114 &1254249052
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1254249047}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f76d15a42bbd464dad0aab8de4e72ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _targetFPS: 60
 --- !u!1 &1289351348
 GameObject:
   m_ObjectHideFlags: 0
@@ -1715,6 +1828,7 @@ GameObject:
   - component: {fileID: 1466593478}
   - component: {fileID: 1466593477}
   - component: {fileID: 1466593476}
+  - component: {fileID: 1466593479}
   m_Layer: 0
   m_Name: Dynamic Sprite (9)
   m_TagString: Untagged
@@ -1885,6 +1999,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1466593479
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1466593474}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2872f7bb27a99db4daa6a0e23e3959c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _rigidbody: {fileID: 1466593477}
 --- !u!1 &1548124801
 GameObject:
   m_ObjectHideFlags: 0
@@ -1897,6 +2024,7 @@ GameObject:
   - component: {fileID: 1548124805}
   - component: {fileID: 1548124804}
   - component: {fileID: 1548124803}
+  - component: {fileID: 1548124806}
   m_Layer: 0
   m_Name: Dynamic Sprite (4)
   m_TagString: Untagged
@@ -2067,6 +2195,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1548124806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1548124801}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2872f7bb27a99db4daa6a0e23e3959c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _rigidbody: {fileID: 1548124804}
 --- !u!1 &1633861715
 GameObject:
   m_ObjectHideFlags: 0
@@ -2079,6 +2220,7 @@ GameObject:
   - component: {fileID: 1633861719}
   - component: {fileID: 1633861718}
   - component: {fileID: 1633861717}
+  - component: {fileID: 1633861720}
   m_Layer: 0
   m_Name: Dynamic Sprite (7)
   m_TagString: Untagged
@@ -2249,6 +2391,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1633861720
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1633861715}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2872f7bb27a99db4daa6a0e23e3959c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _rigidbody: {fileID: 1633861718}
 --- !u!1 &1669505535
 GameObject:
   m_ObjectHideFlags: 0
@@ -2261,6 +2416,7 @@ GameObject:
   - component: {fileID: 1669505539}
   - component: {fileID: 1669505538}
   - component: {fileID: 1669505537}
+  - component: {fileID: 1669505540}
   m_Layer: 0
   m_Name: Dynamic Sprite (2)
   m_TagString: Untagged
@@ -2431,6 +2587,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1669505540
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1669505535}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2872f7bb27a99db4daa6a0e23e3959c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _rigidbody: {fileID: 1669505538}
 --- !u!1 &1722134211
 GameObject:
   m_ObjectHideFlags: 0
@@ -2443,6 +2612,7 @@ GameObject:
   - component: {fileID: 1722134215}
   - component: {fileID: 1722134214}
   - component: {fileID: 1722134213}
+  - component: {fileID: 1722134216}
   m_Layer: 0
   m_Name: Dynamic Sprite (11)
   m_TagString: Untagged
@@ -2613,6 +2783,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1722134216
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1722134211}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2872f7bb27a99db4daa6a0e23e3959c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _rigidbody: {fileID: 1722134214}
 --- !u!1 &1800868786
 GameObject:
   m_ObjectHideFlags: 0
@@ -2625,6 +2808,7 @@ GameObject:
   - component: {fileID: 1800868790}
   - component: {fileID: 1800868789}
   - component: {fileID: 1800868788}
+  - component: {fileID: 1800868791}
   m_Layer: 0
   m_Name: Dynamic Sprite (12)
   m_TagString: Untagged
@@ -2795,6 +2979,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1800868791
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1800868786}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2872f7bb27a99db4daa6a0e23e3959c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _rigidbody: {fileID: 1800868789}
 --- !u!1 &1820293416
 GameObject:
   m_ObjectHideFlags: 0
@@ -2807,6 +3004,7 @@ GameObject:
   - component: {fileID: 1820293420}
   - component: {fileID: 1820293419}
   - component: {fileID: 1820293418}
+  - component: {fileID: 1820293421}
   m_Layer: 0
   m_Name: Dynamic Sprite (3)
   m_TagString: Untagged
@@ -2977,6 +3175,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1820293421
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1820293416}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2872f7bb27a99db4daa6a0e23e3959c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _rigidbody: {fileID: 1820293419}
 --- !u!1 &1857705829
 GameObject:
   m_ObjectHideFlags: 0
@@ -2989,6 +3200,7 @@ GameObject:
   - component: {fileID: 1857705833}
   - component: {fileID: 1857705832}
   - component: {fileID: 1857705831}
+  - component: {fileID: 1857705834}
   m_Layer: 0
   m_Name: Dynamic Sprite (13)
   m_TagString: Untagged
@@ -3159,6 +3371,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1857705834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1857705829}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2872f7bb27a99db4daa6a0e23e3959c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _rigidbody: {fileID: 1857705832}
 --- !u!1 &2117088571
 GameObject:
   m_ObjectHideFlags: 0

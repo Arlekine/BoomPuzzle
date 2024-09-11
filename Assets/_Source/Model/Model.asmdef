@@ -1,9 +1,8 @@
 {
-    "name": "TimeScaleWithPhysics",
+    "name": "Model",
     "rootNamespace": "",
     "references": [
-        "GUID:6dc255e286f5f3946aa1b67e105fdb58",
-        "GUID:0555a0f5e5789874198d8064aa908696"
+        "GUID:6dc255e286f5f3946aa1b67e105fdb58"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

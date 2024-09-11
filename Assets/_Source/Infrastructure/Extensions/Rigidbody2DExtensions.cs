@@ -8,15 +8,20 @@ namespace Infrastructure
             float explosionForce, float explosionRadius, float upwardsModifier = 0.0F,
             ForceMode2D mode = ForceMode2D.Force)
         {
-            var explosionDirection = rigidbody.position - explosionPosition;
+            Collider2D[] colliders = new Collider2D[1];
+            rigidbody.GetAttachedColliders(colliders);
+
+            var affectionPoint = colliders.Length == 0 || colliders[0].bounds.Contains(explosionPosition) ? rigidbody.position
+                : (Vector2)colliders[0].bounds.ClosestPoint(explosionPosition);
+
+            var explosionDirection = affectionPoint - explosionPosition;
             var explosionDistance = (explosionDirection.magnitude / explosionRadius);
 
             if (upwardsModifier != 0)
                 explosionDirection.y += upwardsModifier;
 
             explosionDirection.Normalize();
-
-            rigidbody.AddForce(Mathf.Lerp(0, explosionForce, (1 - explosionDistance)) * explosionDirection, mode);
+            rigidbody.AddForceAtPosition(Mathf.Lerp(0, explosionForce, (1 - explosionDistance)) * explosionDirection, affectionPoint, mode);
         }
     }
 }
