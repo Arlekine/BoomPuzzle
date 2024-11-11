@@ -6,7 +6,7 @@ namespace Infrastructure
     {
         public static void AddExplosionForce(this Rigidbody2D rigidbody, Vector2 explosionPosition,
             float explosionForce, float explosionRadius, float upwardsModifier = 0.0F,
-            ForceMode2D mode = ForceMode2D.Force)
+            ForceMode2D mode = ForceMode2D.Impulse)
         {
             Collider2D[] colliders = new Collider2D[1];
             rigidbody.GetAttachedColliders(colliders);

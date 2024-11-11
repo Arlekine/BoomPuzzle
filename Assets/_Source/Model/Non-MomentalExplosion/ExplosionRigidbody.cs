@@ -8,10 +8,9 @@ namespace Model.NonMomentalExplosion
     {
         [SerializeField] private Rigidbody2D _rigidbody;
 
-        public virtual void Affect(Vector2 explosionPosition, float explosionForce, float explosionRadius)
-        {
+        public virtual void Affect(Vector2 explosionPosition, float explosionForce, float explosionRadius) =>
             _rigidbody.AddExplosionForce(explosionPosition, explosionForce, explosionRadius);
-        }
+
 
         private void OnValidate()
         {

@@ -10,20 +10,19 @@ namespace Model.NonMomentalExplosion
     public class NonMomentalExplosion : IDisposable
     {
         private ExplosionData _data;
+        private IAnimationCurve _explosionCurve;
         private float _time;
 
         private ICoroutineHandler _coroutineHandler;
 
-        public NonMomentalExplosion(ExplosionData data, float initialRadius, float time, ICoroutineHandler coroutineHandler)
+        public NonMomentalExplosion(ExplosionData data, IAnimationCurve explosionCurve, float time, ICoroutineHandler coroutineHandler)
         {
-            if (initialRadius >= data.Radius)
-                throw new ArgumentException($"{nameof(initialRadius)} should be less than final radius");
-
             _data = data;
+            _explosionCurve = explosionCurve;
             _time = time;
             _coroutineHandler = coroutineHandler;
 
-            _currentRadius = initialRadius;
+            _currentRadius = explosionCurve.Evaluate(0f);
 
             _coroutineHandler.StartCoroutine(ExplosionRoutine());
         }
@@ -59,7 +58,7 @@ namespace Model.NonMomentalExplosion
                 currentTime += Time.deltaTime;
 
                 var currentProgress = Mathf.InverseLerp(0f, _time, currentTime);
-                _currentRadius = currentProgress * _data.Radius;
+                _currentRadius = _explosionCurve.Evaluate(currentProgress) * _data.Radius;
             }
 
             Completed?.Invoke();
