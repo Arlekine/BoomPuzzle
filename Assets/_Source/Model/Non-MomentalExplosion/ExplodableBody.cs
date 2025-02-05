@@ -6,6 +6,8 @@ namespace Model.NonMomentalExplosion
 {
     public class ExplodableBody : MonoBehaviour, IExplosionAffectable, IExplosionEventCaster, IClickable
     {
+        [SerializeField] private bool _oneUse = true;
+
         public event Action<Vector2> Exploded;
 
         private bool _exploded;
@@ -21,9 +23,15 @@ namespace Model.NonMomentalExplosion
             if (_exploded == false)
             {
                 _exploded = true;
-                Destroy(gameObject);
+
+                if (_oneUse)
+                    Destroy(gameObject);
+                
                 Exploded?.Invoke(transform.position);
             }
+
+            if (_oneUse == false)
+                _exploded = false;
         }
     }
 }

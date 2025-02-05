@@ -38,6 +38,18 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Background
+    uniqueID: 2552015843
+    locked: 0
+  - name: LevelElements
+    uniqueID: 2056472037
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Eyes
+    uniqueID: 4033635279
+    locked: 0
+  - name: UpperLayer
+    uniqueID: 1267896845
     locked: 0

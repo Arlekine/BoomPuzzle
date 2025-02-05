@@ -11,7 +11,7 @@ public abstract class TypedTrigger<T> : MonoBehaviour
     {
         var targetComponent = other.GetComponent<T>();
 
-        if (targetComponent != null)
+        if (targetComponent.Equals(null) == false)
         {
             TriggerEnter?.Invoke(targetComponent);
             OnEnterTriggered(targetComponent);
@@ -22,7 +22,7 @@ public abstract class TypedTrigger<T> : MonoBehaviour
     {
         var targetComponent = other.GetComponent<T>();
 
-        if (targetComponent != null)
+        if (targetComponent.Equals(null) == false)
         {
             TriggerExit?.Invoke(targetComponent);
             OnExitTriggered(targetComponent);

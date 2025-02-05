@@ -14,14 +14,17 @@ namespace Infrastructure
             var affectionPoint = colliders.Length == 0 || colliders[0].bounds.Contains(explosionPosition) ? rigidbody.position
                 : (Vector2)colliders[0].bounds.ClosestPoint(explosionPosition);
 
-            var explosionDirection = affectionPoint - explosionPosition;
-            var explosionDistance = (explosionDirection.magnitude / explosionRadius);
+            var explosionDirection = rigidbody.position - explosionPosition;
+            var explosionDistance = Mathf.Clamp01(explosionDirection.magnitude / explosionRadius);
 
             if (upwardsModifier != 0)
                 explosionDirection.y += upwardsModifier;
 
             explosionDirection.Normalize();
-            rigidbody.AddForceAtPosition(Mathf.Lerp(0, explosionForce, (1 - explosionDistance)) * explosionDirection, affectionPoint, mode);
+            //rigidbody.AddForceAtPosition(Mathf.Lerp(0, explosionForce, (1 - explosionDistance)) * explosionDirection, affectionPoint, mode);
+
+            Debug.Log($"{rigidbody.gameObject.name} - {explosionDistance}");
+            rigidbody.AddForce(Mathf.Lerp(0, explosionForce, (1 - explosionDistance)) * explosionDirection, mode);
         }
     }
 }
